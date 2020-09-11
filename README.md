@@ -1,2 +1,2 @@
 # SkyscrapersProblem
-Solution to the famous problem of the Skyscrapers, coded in C++ for the subject "Data structures and algorithms", focus on backtracking.
+One Solution and the solution that maximizes the heights to the famous problem of the Skyscrapers, coded in C++ for the subject "Data structures and algorithms", focused on backtracking.
