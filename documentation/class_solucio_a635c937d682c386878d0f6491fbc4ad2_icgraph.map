@@ -1,0 +1,6 @@
+<map id="Solucio::esMillor" name="Solucio::esMillor">
+<area shape="rect" id="node2" href="$class_solucionador.html#ace503538570a80a4020da933c60e7c18" title="Solucionador::algBackMillorSol" alt="" coords="172,5,375,32"/>
+<area shape="rect" id="node3" href="$class_solucionador.html#a6559265c85eb1d36b6c856ad1946228b" title="Solucionador::solucionar" alt="" coords="423,5,587,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#af50106dc2338e2c250294d1906eea261" title="Es llegeixen les dades i s&#39;aplica, depenent de l&#39;opció, un algoritme o un altre per tal de trobar una..." alt="" coords="635,5,765,32"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Gestiona les opcions del programa i, si cal, mostra un missatge d&#39;error quan no es compleix el format..." alt="" coords="813,5,864,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Visibilitats::desanotarVistes" name="Visibilitats::desanotarVistes">
+<area shape="rect" id="node2" href="$class_solucio.html#adf9351689d015549405c75a182c8289f" title="Solucio::desanotar" alt="" coords="237,31,368,57"/>
+<area shape="rect" id="node3" href="$class_solucionador.html#a9e75d8336d802559b0835a82d805a7d4" title="Solucionador::algBackUnaSol" alt="" coords="420,5,615,32"/>
+<area shape="rect" id="node7" href="$class_solucionador.html#ace503538570a80a4020da933c60e7c18" title="Solucionador::algBackMillorSol" alt="" coords="416,56,619,83"/>
+<area shape="rect" id="node4" href="$class_solucionador.html#a6559265c85eb1d36b6c856ad1946228b" title="Solucionador::solucionar" alt="" coords="667,31,831,57"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#af50106dc2338e2c250294d1906eea261" title="Es llegeixen les dades i s&#39;aplica, depenent de l&#39;opció, un algoritme o un altre per tal de trobar una..." alt="" coords="879,31,1009,57"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Gestiona les opcions del programa i, si cal, mostra un missatge d&#39;error quan no es compleix el format..." alt="" coords="1057,31,1108,57"/>
+</map>

@@ -1,0 +1,239 @@
+LAURA GALERA ALFARO
+
+/*****************/
+/*PROVES DEL MENU*/
+/*****************/
+
+Comanda:
+./gratacels -u 5
+Falta altura màxima tolerada o nom fitxer
+Comentari: comprovar el pas de paràmetres al main
+
+Comanda:
+./gratacels -h
+*** Distribució de gratacels en una illa d’edificis quadrada ***
+Utilització: ./gratacels opcio fitxer 
+
+opcio pot ser:
+-h, --help   : mostra aquest missatge d’ajuda i surt.
+-u alt       : cerca una solució que compleixi les restriccions 
+               del problema sense fer servir edificis d'una altura superior a alt.
+-m           : cerca la solució que maximitza la suma 
+               de les altures de tots els edificis de la solució.
+fitxer         ha de ser un fitxer de text amb totes les dades 
+               amb el format següent: 
+               dimensió(n) // dimensió matriu
+               vN1 vN2 ... vNn // visibles des del nord
+               vS1 vS2 ... vSn // visibles des del sud
+               vE1 vE2 ... vEn // visibles des de l’est
+               vW1 vW2 ... vWn // visibles des de l’oest
+               altura maxima(m) // altura màxima disponible
+               a1 a2 ... am // edificis disponibles de cada altura
+Comentari: comprovar el pas de paràmetres al main
+
+Comanda:
+./gratacels -m meow
+El fitxer [meow] no es pot obrir. Revisa el nom o els permisos
+Comentari: comprovar el pas de paràmetres al main
+
+Comanda:
+./gratacels sky
+Opció desconeguda: sky
+Comentari: comprovar el pas de paràmetres al main
+
+Comanda:
+./gratacels
+Falten arguments ("./gratacels --help" per ajuda)
+Comentari: comprovar el pas de paràmetres al main
+
+/***************/
+/*PROVES EN 4X4*/
+/***************/
+
+Comanda:
+./gratacels -u 3 ./jocProves/g4moodle
+No hi ha solució
+Temps: 8.7395e-05 segons
+Comentari: comprovar si detecta que no hi ha solució.
+
+Comanda:
+./gratacels -u 4 ./jocProves/g4moodle
+  1 3 2 3 
+1 4 1 3 2 3
+2 3 2 4 1 2
+2 2 4 1 3 2
+3 1 3 2 4 1
+  4 2 2 1 
+Alçada total: 40
+Temps: 0.000340837 segons
+Comentari: veure si troba una solució qualsevol i el temps d'execució.
+
+Comanda:
+./gratacels -u 6 ./jocProves/g4moodle
+  1 3 2 3 
+1 4 1 3 2 3
+2 3 2 4 1 2
+2 2 4 1 3 2
+3 1 3 2 4 1
+  4 2 2 1 
+Alçada total: 40
+Temps: 0.00137235 segons
+Comentari: afegint dos alçades més (dos candidats més per nivell) el temps d'execució incrementa.
+
+Comanda:
+./gratacels -m ./jocProves/g4moodle
+  1 3 2 3 
+1 4 1 3 2 3
+2 3 2 5 4 2
+2 2 6 1 3 2
+3 1 4 2 6 1
+  4 2 2 1 
+Alçada total: 49
+Temps: 0.0343701 segons
+Comentari: comprovar com el fet de buscar la millor i no una solució qualsevol afecta al temps d'execució.
+
+Comanda:
+./gratacels -m ./jocProves/g4NoSol
+No hi ha solució
+Temps: 0.000124506 segons
+Comentari: veure com, tot i disposar de suficients edificis, el backtracking de la millor solució també pot concloure en "no hi ha solució".
+A més, tot i tenir menys candidats, tarda més a adonar-se que no hi ha solució que al primer exemple.
+
+Comanda:
+./gratacels -u 4 ./jocProves/g4Sol
+  2 1 3 2 
+2 3 4 1 2 2
+3 1 3 2 4 1
+2 2 1 4 3 2
+1 4 2 3 1 3
+  1 3 2 3 
+Alçada total: 40
+Temps: 0.000473834 segons
+Comentari: comprovar que sí troba una solució.
+
+Comanda:
+./gratacels -m ./jocProves/g4Sol
+  2 1 3 2 
+2 4 6 3 5 2
+3 2 5 4 6 1
+2 3 2 6 4 2
+1 7 4 2 3 3
+  1 3 2 3 
+Alçada total: 66
+Temps: 0.14039 segons
+Comentari: efectivament agafa els edificis més alts per a trobar la millor solució. També el temps d'execució és molt més gran en
+comparació amb el resultat anterior.
+
+/***************/
+/*PROVES EN 5X5*/
+/***************/
+
+Comanda:
+./gratacels -u 5 ./jocProves/g5moodle
+No hi ha solució
+Temps: 8.6129e-05 segons
+Comentari: ràpidament detecta que no hi ha solució.
+
+Comanda:
+./gratacels -u 6 ./jocProves/g5moodle
+  3 1 2 2 5 
+2 1 6 5 3 2 4
+2 5 4 6 1 3 2
+1 6 5 1 2 4 3
+4 2 3 4 6 5 2
+3 4 1 3 5 6 1
+  2 4 3 2 1 
+Alçada total: 93
+Temps: 0.0195333 segons
+Comentari: comprovar si troba una solució al problema i com el fet de tenir una matriu 5x5 afecta en el temps d'execució en comparació
+a la de 4x4.
+
+Comanda:
+./gratacels -m ./jocProves/g5moodle
+  3 1 2 2 5 
+2 1 6 5 4 2 4
+2 5 4 6 1 3 2
+1 6 5 1 3 4 3
+4 2 3 4 6 5 2
+3 4 2 3 5 6 1
+  2 4 3 2 1 
+Alçada total: 96
+Temps: 0.0542457 segons
+Comentari: veure què passa amb el temps d'execució quan es busca la millor solució i si s'usen els edificis més alts. En aquest cas, el temps d'execució entre trobar una solució i trobar la solució òptima no varia tant.
+
+Comanda:
+./gratacels -u 7 ./jocProves/g5moodle7
+  3 1 2 2 5 
+2 1 6 4 3 2 4
+2 2 5 3 1 4 2
+1 7 1 6 2 5 3
+4 3 4 5 7 6 2
+3 4 3 1 5 7 1
+  2 4 3 2 1 
+Alçada total: 97
+Temps: 0.0477437 segons
+Comentari: arribar a trobar una solució en un 5x5 amb edificis d'alçada 7. De fet, el temps és molt bo.
+
+Comanda:
+./gratacels -m ./jocProves/g5moodle7
+  3 1 2 2 5 
+2 5 7 6 4 1 4
+2 6 5 7 1 3 2
+1 7 6 2 3 4 3
+4 2 3 4 6 5 2
+3 4 2 3 5 6 1
+  2 4 3 2 1 
+Alçada total: 107
+Temps: 9.41816 segons
+Comentari: comprovar com el temps es dispara quan busques la solució òptima en la mateix matriu de g5moodle només afegint 3 edificis d'alçada 7.
+
+Comanda:
+-bash-4.2$ ./gratacels -m ./jocProves/g5Sol
+  4 2 1 2 3 
+3 1 2 6 5 4 3
+2 5 6 4 3 2 4
+3 4 5 3 2 6 1
+2 6 4 5 8 7 2
+1 7 3 2 4 5 2
+  1 4 3 2 2 
+Alçada total: 109
+Temps: 59.5953 segons
+Comentari: veure si agafa els edificis d'alçada màxima i quin és el temps d'execució.
+
+/***************/
+/*PROVES EN 6X6*/
+/***************/
+
+Comanda:
+./gratacels -u 6 ./jocProves/g6
+No hi ha solució
+Temps: 8.9694e-05 segons
+Comentari: comprovar que no troba una solució.
+
+Comanda:
+./gratacels -u 7 ./jocProves/g6
+  3 1 2 3 2 5 
+2 1 6 4 3 5 2 3
+2 5 4 1 6 2 3 2
+3 4 5 3 7 6 1 3
+1 7 3 2 5 1 4 3
+2 3 2 7 1 4 5 2
+3 2 1 5 4 3 7 1
+  3 5 2 3 3 1 
+Alçada total: 134
+Temps: 4.58383 segons
+Comentari: veure què passa quan es treballa amb una matriu 6x6. El temps per trobar una solució qualsevol varia força respecte el de 5x5
+
+Comanda:
+-bash-4.2$ ./gratacels -m ./jocProves/g6
+  3 1 2 3 2 5 
+2 3 6 4 1 5 2 3
+2 5 4 1 2 6 3 2
+3 4 5 3 7 2 1 3
+1 7 3 2 5 1 4 3
+2 6 2 7 3 4 5 2
+3 2 1 5 4 3 7 1
+  3 5 2 3 3 1 
+Alçada total: 135
+Temps: 355.718 segons
+Comentari: comprovar que sí troba la solució òptima i què succeix amb el temps. Doncs, com era de suposar, el temps es dispara molt, pràcticament 6 minuts!. Es pot veure com les altures del resultat són les màximes.

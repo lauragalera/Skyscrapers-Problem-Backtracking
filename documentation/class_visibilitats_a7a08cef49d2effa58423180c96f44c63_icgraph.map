@@ -1,0 +1,8 @@
+<map id="Visibilitats::finalFilaS" name="Visibilitats::finalFilaS">
+<area shape="rect" id="node2" href="$class_solucio.html#a2b3ab125f1c813d318dc45f2fbf0393e" title="Retorna cert si el candidat es pot afegir a la solució, fals altrament. " alt="" coords="197,31,333,57"/>
+<area shape="rect" id="node3" href="$class_solucionador.html#a9e75d8336d802559b0835a82d805a7d4" title="Solucionador::algBackUnaSol" alt="" coords="385,5,580,32"/>
+<area shape="rect" id="node7" href="$class_solucionador.html#ace503538570a80a4020da933c60e7c18" title="Solucionador::algBackMillorSol" alt="" coords="381,56,584,83"/>
+<area shape="rect" id="node4" href="$class_solucionador.html#a6559265c85eb1d36b6c856ad1946228b" title="Solucionador::solucionar" alt="" coords="632,31,796,57"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#af50106dc2338e2c250294d1906eea261" title="Es llegeixen les dades i s&#39;aplica, depenent de l&#39;opció, un algoritme o un altre per tal de trobar una..." alt="" coords="844,31,975,57"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Gestiona les opcions del programa i, si cal, mostra un missatge d&#39;error quan no es compleix el format..." alt="" coords="1023,31,1073,57"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Solucionador" name="Solucionador">
+<area shape="rect" id="node2" href="$class_solucio.html" title="Classe que guardar les dades addicionals per trobar la solució i el resultat. " alt="" coords="21,95,87,121"/>
+<area shape="rect" id="node3" href="$class_visibilitats.html" title="Classe que gestiona les visibilitats, segons els quatre punts cardinals, de la illeta d&#39;edifics..." alt="" coords="13,5,95,32"/>
+</map>

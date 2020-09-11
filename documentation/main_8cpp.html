@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Skycrapers: Referència del Fitxer main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Screenshot from 2020-01-06 16-19-12.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Skycrapers
+   </div>
+   <div id="projectbrief">Solucionador del típic joc dels gratacels</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('main_8cpp.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funcions</a>  </div>
+  <div class="headertitle">
+<div class="title">Referència del Fitxer main.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>part principal del programa  
+<a href="#details">Més...</a></p>
+<div class="textblock"><code>#include &lt;cstdlib&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &quot;<a class="el" href="_solucio_8h_source.html">Solucio.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_solucionador_8h_source.html">Solucionador.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Inclou el graf de dependències per a main.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#main_8cpp" alt=""/></div>
+<map name="main_8cpp" id="main_8cpp">
+<area shape="rect" id="node9" href="_solucio_8h.html" title="Classe Solucio. " alt="" coords="316,155,392,181"/>
+<area shape="rect" id="node12" href="_solucionador_8h.html" title="Classe Solucionador. " alt="" coords="384,80,492,107"/>
+<area shape="rect" id="node10" href="_candidats_8h.html" title="Classe Candidats. " alt="" coords="451,229,543,256"/>
+<area shape="rect" id="node11" href="_visibilitats_8h.html" title="Classe Visibilitats. " alt="" coords="282,229,375,256"/>
+</map>
+</div>
+</div>
+<p><a href="main_8cpp_source.html">Veure el codi d'aquest fitxer.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funcions</h2></td></tr>
+<tr class="memitem:a2a3dd22d35a0bd8048cfa16440bd457e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a2a3dd22d35a0bd8048cfa16440bd457e">mostrarAjuda</a> (char *nomPrograma)</td></tr>
+<tr class="memdesc:a2a3dd22d35a0bd8048cfa16440bd457e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mostra l'ajuda del programa.  <a href="#a2a3dd22d35a0bd8048cfa16440bd457e">Més...</a><br /></td></tr>
+<tr class="separator:a2a3dd22d35a0bd8048cfa16440bd457e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a667d64d19375f53c6d2aef041579aa0d"><td class="memItemLeft" align="right" valign="top">vector&lt; vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a667d64d19375f53c6d2aef041579aa0d">llegirFitxer</a> (char *nomFitxer)</td></tr>
+<tr class="memdesc:a667d64d19375f53c6d2aef041579aa0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna un vector de vectors d'enters amb les dades llegides, provinents del fitxer proporcionat.  <a href="#a667d64d19375f53c6d2aef041579aa0d">Més...</a><br /></td></tr>
+<tr class="separator:a667d64d19375f53c6d2aef041579aa0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50106dc2338e2c250294d1906eea261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#af50106dc2338e2c250294d1906eea261">gestionarProblema</a> (char opcio, char *alt, char *nomFitxer)</td></tr>
+<tr class="memdesc:af50106dc2338e2c250294d1906eea261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Es llegeixen les dades i s'aplica, depenent de l'opció, un algoritme o un altre per tal de trobar una/la solució.  <a href="#af50106dc2338e2c250294d1906eea261">Més...</a><br /></td></tr>
+<tr class="separator:af50106dc2338e2c250294d1906eea261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+<tr class="memdesc:a3c04138a5bfe5d72780bb7e82a18e627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gestiona les opcions del programa i, si cal, mostra un missatge d'error quan no es compleix el format correcte de paràmetres per procedir amb l'execució d'aquest.  <a href="#a3c04138a5bfe5d72780bb7e82a18e627">Més...</a><br /></td></tr>
+<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>part principal del programa </p>
+<dl class="section author"><dt>Autor</dt><dd>Laura Galera Alfaro </dd></dl>
+
+<p class="definition">Definició al fitxer <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+</div><h2 class="groupheader">Documentació de les Funcions</h2>
+<a id="af50106dc2338e2c250294d1906eea261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50106dc2338e2c250294d1906eea261">&#9670;&nbsp;</a></span>gestionarProblema()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gestionarProblema </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>opcio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>alt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>nomFitxer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Es llegeixen les dades i s'aplica, depenent de l'opció, un algoritme o un altre per tal de trobar una/la solució. </p>
+<dl class="section pre"><dt>Precondició</dt><dd><code>opcio</code> és <b>u</b> quan es busca una solució al problema i va acompanyat d'<b>alt</b>, que indica l'altura màxima d'edificis que es volen usar. Pel contrari, <code>opcio</code> és <b>m</b> quan es vol trobar la solució que maximitza les altures. En aquest cas, el valor d'<b>alt</b> és indiferent. </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Es llegeixen les dades del fitxer d'entrada i es mostra un missatge si no s'ha pogut realitzar aquesta acció. Si les dades s'han llegit sense problemes, depenent d'<code>opcio</code>, s'intenta trobar una/la solució que satisfà el problema. Aquesta es mostra acompanyada del temps d'execució. Si no s'ha trobat cap solució, es mostra un missatge també acompanyat del temps d'execució. </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="main_8cpp_source.html#l00151">151</a> del fitxer <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8cpp_af50106dc2338e2c250294d1906eea261_cgraph.png" border="0" usemap="#main_8cpp_af50106dc2338e2c250294d1906eea261_cgraph" alt=""/></div>
+<map name="main_8cpp_af50106dc2338e2c250294d1906eea261_cgraph" id="main_8cpp_af50106dc2338e2c250294d1906eea261_cgraph">
+<area shape="rect" id="node2" href="main_8cpp.html#a667d64d19375f53c6d2aef041579aa0d" title="Retorna un vector de vectors d&#39;enters amb les dades llegides, provinents del fitxer proporcionat..." alt="" coords="225,183,307,209"/>
+<area shape="rect" id="node3" href="class_solucionador.html#a6559265c85eb1d36b6c856ad1946228b" title="Solucionador::solucionar" alt="" coords="184,233,348,260"/>
+<area shape="rect" id="node4" href="class_solucio.html#a4e41ff2ad9817af43237e19e422c0c31" title="Solucio::potTenirSol" alt="" coords="428,157,567,184"/>
+<area shape="rect" id="node5" href="class_solucionador.html#ace503538570a80a4020da933c60e7c18" title="Solucionador::algBackMillorSol" alt="" coords="396,259,599,285"/>
+<area shape="rect" id="node24" href="class_solucio.html#aceda78a3c2cfee7f456c8d10e80a3e49" title="Solucio::mostrar" alt="" coords="439,309,556,336"/>
+<area shape="rect" id="node25" href="class_solucionador.html#a9e75d8336d802559b0835a82d805a7d4" title="Solucionador::algBackUnaSol" alt="" coords="400,208,595,235"/>
+<area shape="rect" id="node6" href="class_solucio.html#a00e64a357a95d6645d4309d71513a380" title="Solucio::inicialitzarCandidats" alt="" coords="647,107,837,133"/>
+<area shape="rect" id="node7" href="class_candidats.html#afa7c56676a8c4f433c77f661600b35c8" title="Retorna cert si no queden més candidats a tractar, fals altrament. " alt="" coords="685,157,799,184"/>
+<area shape="rect" id="node8" href="class_solucio.html#a2b3ab125f1c813d318dc45f2fbf0393e" title="Retorna cert si el candidat es pot afegir a la solució, fals altrament. " alt="" coords="674,208,810,235"/>
+<area shape="rect" id="node16" href="class_solucio.html#a49a74df479fb81b46896e0ee8c0d0578" title="Retorna cert si és possible que aquesta solució arribi a ser millor que optima. " alt="" coords="671,411,813,437"/>
+<area shape="rect" id="node17" href="class_solucio.html#af2c5cf6fd10c19c9fefe9f0575726a01" title="Solucio::anotar" alt="" coords="687,259,797,285"/>
+<area shape="rect" id="node19" href="class_solucio.html#adf12823d6437ac4bb638c9f27caf1078" title="Retorna cert si la solució ja és completa, fals altrament. " alt="" coords="679,360,805,387"/>
+<area shape="rect" id="node20" href="class_solucio.html#a635c937d682c386878d0f6491fbc4ad2" title="Retorna cert si aquesta solució és millor que optima. " alt="" coords="683,461,801,488"/>
+<area shape="rect" id="node21" href="class_solucio.html#adf9351689d015549405c75a182c8289f" title="Solucio::desanotar" alt="" coords="677,309,807,336"/>
+<area shape="rect" id="node23" href="class_candidats.html#afd756250ad98135ef7988ab84e16e050" title="Passa al següent candidat. " alt="" coords="675,56,809,83"/>
+<area shape="rect" id="node9" href="class_candidats.html#a69bd68ac03663d4c55822e9314dd2fc8" title="Retorna el candidat actual. " alt="" coords="915,309,1039,336"/>
+<area shape="rect" id="node10" href="class_visibilitats.html#a2ffceadce599c123d4895b5ac60cc6fe" title="Visibilitats::filaN" alt="" coords="919,5,1036,32"/>
+<area shape="rect" id="node11" href="class_visibilitats.html#af4bca02ef5beab85579936a2459a084b" title="Visibilitats::colO" alt="" coords="919,56,1036,83"/>
+<area shape="rect" id="node12" href="class_visibilitats.html#af0849ed5ed97e24c3c972d7fd503d308" title="Visibilitats::finalColO" alt="" coords="905,107,1049,133"/>
+<area shape="rect" id="node13" href="class_visibilitats.html#aee25ec72502a3498bd8a084ffa4891b0" title="Visibilitats::finalColE" alt="" coords="906,157,1049,184"/>
+<area shape="rect" id="node14" href="class_visibilitats.html#a3aa3b9d13e8dc06a3c551c5b98d5c504" title="Visibilitats::finalFilaN" alt="" coords="905,208,1050,235"/>
+<area shape="rect" id="node15" href="class_visibilitats.html#a7a08cef49d2effa58423180c96f44c63" title="Visibilitats::finalFilaS" alt="" coords="905,259,1049,285"/>
+<area shape="rect" id="node18" href="class_visibilitats.html#a904ed187c048fb99fd40e4bdebbf3b78" title="Visibilitats::anotarVistes" alt="" coords="896,360,1059,387"/>
+<area shape="rect" id="node22" href="class_visibilitats.html#a1642ebb3fae73f92fa44a248eb252214" title="Visibilitats::desanotarVistes" alt="" coords="885,411,1069,437"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8cpp_af50106dc2338e2c250294d1906eea261_icgraph.png" border="0" usemap="#main_8cpp_af50106dc2338e2c250294d1906eea261_icgraph" alt=""/></div>
+<map name="main_8cpp_af50106dc2338e2c250294d1906eea261_icgraph" id="main_8cpp_af50106dc2338e2c250294d1906eea261_icgraph">
+<area shape="rect" id="node2" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Gestiona les opcions del programa i, si cal, mostra un missatge d&#39;error quan no es compleix el format..." alt="" coords="184,5,235,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a667d64d19375f53c6d2aef041579aa0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667d64d19375f53c6d2aef041579aa0d">&#9670;&nbsp;</a></span>llegirFitxer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; vector&lt; int &gt; &gt; llegirFitxer </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>nomFitxer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retorna un vector de vectors d'enters amb les dades llegides, provinents del fitxer proporcionat. </p>
+<dl class="section pre"><dt>Precondició</dt><dd><code>nomFitxer</code> conté les dades en el següent format: <pre class="fragment">            dimensió(n) // dimensió matriu
+            vN1 vN2 ... vNn // visibles des del nord
+            vS1 vS2 ... vSn // visibles des del sud
+            vE1 vE2 ... vEn // visibles des de l’est
+            vW1 vW2 ... vWn // visibles des de l’oest
+            altura maxima(m) // altura màxima disponible
+            a1 a2 ... am // edificis disponibles de cada altura</pre> </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Retorna un vector de mida 5 de vectors d'enters sempre i quan el fitxer s'hagi obert sense problemes, sinó retorna un vector buit. El vector a retornar conté a la primera posició les visibilitats del nord en un vector d'enters, en segon lloc les visibilitats del sud i així consecutivament fins les visibilitats de l'oest a la posició 3. A la última casella s'hi guarden els edificis disponibles de cada altura en un altre vector d'enters. En aquest cas, l'altura de l'edifici coincideix amb l'índex del vector on s'hi troba la quantitat disponible d'aquesta mateixa altura. </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="main_8cpp_source.html#l00123">123</a> del fitxer <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8cpp_a667d64d19375f53c6d2aef041579aa0d_icgraph.png" border="0" usemap="#main_8cpp_a667d64d19375f53c6d2aef041579aa0d_icgraph" alt=""/></div>
+<map name="main_8cpp_a667d64d19375f53c6d2aef041579aa0d_icgraph" id="main_8cpp_a667d64d19375f53c6d2aef041579aa0d_icgraph">
+<area shape="rect" id="node2" href="main_8cpp.html#af50106dc2338e2c250294d1906eea261" title="Es llegeixen les dades i s&#39;aplica, depenent de l&#39;opció, un algoritme o un altre per tal de trobar una..." alt="" coords="136,5,267,32"/>
+<area shape="rect" id="node3" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Gestiona les opcions del programa i, si cal, mostra un missatge d&#39;error quan no es compleix el format..." alt="" coords="315,5,365,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c04138a5bfe5d72780bb7e82a18e627">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gestiona les opcions del programa i, si cal, mostra un missatge d'error quan no es compleix el format correcte de paràmetres per procedir amb l'execució d'aquest. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>Cert. </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>A partir dels paràmetres d'entrada, s'escull una de les tres opcions disponibles en què es basa el programa: mostrar el menú d'ajuda, trobar una solució que permeti emplenar una illeta de nxn edificis seguint unes restriccions, o trobar la solució que maximitza l'altura dels edificis col·locats a la illeta. Depent de quina es tracti, es mostra l'ajuda o es llegeixen les dades d'un fitxer d'entrada i es busca una/la solució al problema, per així mostrar-la per pantalla posteriorment si és possible. Si els paràmetres entrats no condueixen amb cap opció es mostra un missatge per alertar perquè no es pot prosseguir amb l'execució del programa. </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="main_8cpp_source.html#l00070">70</a> del fitxer <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.png" border="0" usemap="#main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph" alt=""/></div>
+<map name="main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph" id="main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph">
+<area shape="rect" id="node2" href="main_8cpp.html#a2a3dd22d35a0bd8048cfa16440bd457e" title="Mostra l&#39;ajuda del programa. " alt="" coords="120,157,219,184"/>
+<area shape="rect" id="node3" href="main_8cpp.html#af50106dc2338e2c250294d1906eea261" title="Es llegeixen les dades i s&#39;aplica, depenent de l&#39;opció, un algoritme o un altre per tal de trobar una..." alt="" coords="104,208,235,235"/>
+<area shape="rect" id="node4" href="main_8cpp.html#a667d64d19375f53c6d2aef041579aa0d" title="Retorna un vector de vectors d&#39;enters amb les dades llegides, provinents del fitxer proporcionat..." alt="" coords="323,183,406,209"/>
+<area shape="rect" id="node5" href="class_solucionador.html#a6559265c85eb1d36b6c856ad1946228b" title="Solucionador::solucionar" alt="" coords="283,233,447,260"/>
+<area shape="rect" id="node6" href="class_solucio.html#a4e41ff2ad9817af43237e19e422c0c31" title="Solucio::potTenirSol" alt="" coords="527,157,665,184"/>
+<area shape="rect" id="node7" href="class_solucionador.html#ace503538570a80a4020da933c60e7c18" title="Solucionador::algBackMillorSol" alt="" coords="495,259,697,285"/>
+<area shape="rect" id="node26" href="class_solucio.html#aceda78a3c2cfee7f456c8d10e80a3e49" title="Solucio::mostrar" alt="" coords="537,309,655,336"/>
+<area shape="rect" id="node27" href="class_solucionador.html#a9e75d8336d802559b0835a82d805a7d4" title="Solucionador::algBackUnaSol" alt="" coords="499,208,693,235"/>
+<area shape="rect" id="node8" href="class_solucio.html#a00e64a357a95d6645d4309d71513a380" title="Solucio::inicialitzarCandidats" alt="" coords="745,107,936,133"/>
+<area shape="rect" id="node9" href="class_candidats.html#afa7c56676a8c4f433c77f661600b35c8" title="Retorna cert si no queden més candidats a tractar, fals altrament. " alt="" coords="783,157,898,184"/>
+<area shape="rect" id="node10" href="class_solucio.html#a2b3ab125f1c813d318dc45f2fbf0393e" title="Retorna cert si el candidat es pot afegir a la solució, fals altrament. " alt="" coords="773,208,909,235"/>
+<area shape="rect" id="node18" href="class_solucio.html#a49a74df479fb81b46896e0ee8c0d0578" title="Retorna cert si és possible que aquesta solució arribi a ser millor que optima. " alt="" coords="769,411,912,437"/>
+<area shape="rect" id="node19" href="class_solucio.html#af2c5cf6fd10c19c9fefe9f0575726a01" title="Solucio::anotar" alt="" coords="786,259,895,285"/>
+<area shape="rect" id="node21" href="class_solucio.html#adf12823d6437ac4bb638c9f27caf1078" title="Retorna cert si la solució ja és completa, fals altrament. " alt="" coords="777,360,904,387"/>
+<area shape="rect" id="node22" href="class_solucio.html#a635c937d682c386878d0f6491fbc4ad2" title="Retorna cert si aquesta solució és millor que optima. " alt="" coords="781,461,900,488"/>
+<area shape="rect" id="node23" href="class_solucio.html#adf9351689d015549405c75a182c8289f" title="Solucio::desanotar" alt="" coords="775,309,906,336"/>
+<area shape="rect" id="node25" href="class_candidats.html#afd756250ad98135ef7988ab84e16e050" title="Passa al següent candidat. " alt="" coords="773,56,908,83"/>
+<area shape="rect" id="node11" href="class_candidats.html#a69bd68ac03663d4c55822e9314dd2fc8" title="Retorna el candidat actual. " alt="" coords="1014,309,1138,336"/>
+<area shape="rect" id="node12" href="class_visibilitats.html#a2ffceadce599c123d4895b5ac60cc6fe" title="Visibilitats::filaN" alt="" coords="1017,5,1135,32"/>
+<area shape="rect" id="node13" href="class_visibilitats.html#af4bca02ef5beab85579936a2459a084b" title="Visibilitats::colO" alt="" coords="1017,56,1135,83"/>
+<area shape="rect" id="node14" href="class_visibilitats.html#af0849ed5ed97e24c3c972d7fd503d308" title="Visibilitats::finalColO" alt="" coords="1004,107,1148,133"/>
+<area shape="rect" id="node15" href="class_visibilitats.html#aee25ec72502a3498bd8a084ffa4891b0" title="Visibilitats::finalColE" alt="" coords="1005,157,1147,184"/>
+<area shape="rect" id="node16" href="class_visibilitats.html#a3aa3b9d13e8dc06a3c551c5b98d5c504" title="Visibilitats::finalFilaN" alt="" coords="1003,208,1149,235"/>
+<area shape="rect" id="node17" href="class_visibilitats.html#a7a08cef49d2effa58423180c96f44c63" title="Visibilitats::finalFilaS" alt="" coords="1004,259,1148,285"/>
+<area shape="rect" id="node20" href="class_visibilitats.html#a904ed187c048fb99fd40e4bdebbf3b78" title="Visibilitats::anotarVistes" alt="" coords="995,360,1157,387"/>
+<area shape="rect" id="node24" href="class_visibilitats.html#a1642ebb3fae73f92fa44a248eb252214" title="Visibilitats::desanotarVistes" alt="" coords="984,411,1168,437"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2a3dd22d35a0bd8048cfa16440bd457e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a3dd22d35a0bd8048cfa16440bd457e">&#9670;&nbsp;</a></span>mostrarAjuda()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mostrarAjuda </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>nomPrograma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mostra l'ajuda del programa. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>Cert. </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Mostra un missatge complet amb quins paràmetres usar al programa i què volen dir cadascun d'ells. </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="main_8cpp_source.html#l00103">103</a> del fitxer <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8cpp_a2a3dd22d35a0bd8048cfa16440bd457e_icgraph.png" border="0" usemap="#main_8cpp_a2a3dd22d35a0bd8048cfa16440bd457e_icgraph" alt=""/></div>
+<map name="main_8cpp_a2a3dd22d35a0bd8048cfa16440bd457e_icgraph" id="main_8cpp_a2a3dd22d35a0bd8048cfa16440bd457e_icgraph">
+<area shape="rect" id="node2" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Gestiona les opcions del programa i, si cal, mostra un missatge d&#39;error quan no es compleix el format..." alt="" coords="152,5,203,32"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
+    <li class="footer">Generat per
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<map id="Solucionador::algBackMillorSol" name="Solucionador::algBackMillorSol">
+<area shape="rect" id="node2" href="$class_solucio.html#a00e64a357a95d6645d4309d71513a380" title="Solucio::inicialitzarCandidats" alt="" coords="256,5,447,32"/>
+<area shape="rect" id="node3" href="$class_candidats.html#afa7c56676a8c4f433c77f661600b35c8" title="Retorna cert si no queden més candidats a tractar, fals altrament. " alt="" coords="294,56,409,83"/>
+<area shape="rect" id="node4" href="$class_solucio.html#a2b3ab125f1c813d318dc45f2fbf0393e" title="Retorna cert si el candidat es pot afegir a la solució, fals altrament. " alt="" coords="283,208,419,235"/>
+<area shape="rect" id="node12" href="$class_solucio.html#a49a74df479fb81b46896e0ee8c0d0578" title="Retorna cert si és possible que aquesta solució arribi a ser millor que optima. " alt="" coords="280,259,423,285"/>
+<area shape="rect" id="node13" href="$class_solucio.html#af2c5cf6fd10c19c9fefe9f0575726a01" title="Solucio::anotar" alt="" coords="297,107,406,133"/>
+<area shape="rect" id="node15" href="$class_solucio.html#adf12823d6437ac4bb638c9f27caf1078" title="Retorna cert si la solució ja és completa, fals altrament. " alt="" coords="288,309,415,336"/>
+<area shape="rect" id="node16" href="$class_solucio.html#a635c937d682c386878d0f6491fbc4ad2" title="Retorna cert si aquesta solució és millor que optima. " alt="" coords="292,360,411,387"/>
+<area shape="rect" id="node17" href="$class_solucio.html#adf9351689d015549405c75a182c8289f" title="Solucio::desanotar" alt="" coords="286,157,417,184"/>
+<area shape="rect" id="node19" href="$class_candidats.html#afd756250ad98135ef7988ab84e16e050" title="Passa al següent candidat. " alt="" coords="284,411,419,437"/>
+<area shape="rect" id="node5" href="$class_candidats.html#a69bd68ac03663d4c55822e9314dd2fc8" title="Retorna el candidat actual. " alt="" coords="525,107,649,133"/>
+<area shape="rect" id="node6" href="$class_visibilitats.html#a2ffceadce599c123d4895b5ac60cc6fe" title="Visibilitats::filaN" alt="" coords="528,309,645,336"/>
+<area shape="rect" id="node7" href="$class_visibilitats.html#af4bca02ef5beab85579936a2459a084b" title="Visibilitats::colO" alt="" coords="528,360,645,387"/>
+<area shape="rect" id="node8" href="$class_visibilitats.html#af0849ed5ed97e24c3c972d7fd503d308" title="Visibilitats::finalColO" alt="" coords="515,411,659,437"/>
+<area shape="rect" id="node9" href="$class_visibilitats.html#aee25ec72502a3498bd8a084ffa4891b0" title="Visibilitats::finalColE" alt="" coords="515,157,658,184"/>
+<area shape="rect" id="node10" href="$class_visibilitats.html#a3aa3b9d13e8dc06a3c551c5b98d5c504" title="Visibilitats::finalFilaN" alt="" coords="514,208,659,235"/>
+<area shape="rect" id="node11" href="$class_visibilitats.html#a7a08cef49d2effa58423180c96f44c63" title="Visibilitats::finalFilaS" alt="" coords="515,259,659,285"/>
+<area shape="rect" id="node14" href="$class_visibilitats.html#a904ed187c048fb99fd40e4bdebbf3b78" title="Visibilitats::anotarVistes" alt="" coords="505,5,668,32"/>
+<area shape="rect" id="node18" href="$class_visibilitats.html#a1642ebb3fae73f92fa44a248eb252214" title="Visibilitats::desanotarVistes" alt="" coords="495,56,679,83"/>
+</map>
